@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.send({
-        titulo: "Orixás da Nação Ketu cultuados no Brasil",
+        titulo: "Livros de Autores Negros",
         data: "22/09/2020"
     });
 });
