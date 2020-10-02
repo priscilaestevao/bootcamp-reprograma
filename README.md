@@ -1,7 +1,7 @@
 # Bootcamp {reprograma}
 ### *Bootcamp à distância em parceria com o projeto MINAS - Porto Digital de Recife*
 
-![reprograma](assets/reprograma.jpg)
+![reprograma](images/reprograma.jpg)
 
 # Conteúdos do curso
 
