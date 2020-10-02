@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "language": "JavaScript",
+    "typing style": ["dynamic", "weak", "implicit"],
+    "paradigm": "multiparadigm",
+    "criator": "Brendan Eich",
+    "year": 1995,
+    "last version": "ECMAScript 2018"
+  },
+  {
+    "id": 2,
+    "language": "Java",
+    "typing style": ["static", "strong"],
+    "paradigm": ["objects oriented", "structured", "imperative", "generic", "functional", "reflective", "competitor"],
+    "criator": ["James Gosling", "Sun Microsystems"],
+    "year": 1995,
+    "last version": "13"
+  },
+  {
+    "id": 3,
+    "language": "Python",
+    "typing style": ["dynamic", "strong"],
+    "paradigm": ["multiparadigm", "objects oriented", "imperative", "functional"],
+    "criator": "Guido van Rossum",
+    "year": 1992,
+    "last version": "3.8.3"
+  },
+  {
+    "id": 4,
+    "language": "C#",
+    "typing style": ["static", "dynamic", "strong", "secure", "insecure", "nominative", "partially inferential"],
+    "paradigm": ["structured", "imperative", "competitor", "functional", "generic", "objects oriented", "events oriented", "reflective"],
+    "criator": "Microsoft",
+    "year": 2000,
+    "last version": "8.0"
+  },
+  {
+    "id": 5,
+    "language": "PHP",
+    "typing style": "dynamic",
+    "paradigm": ["procedural", "reflective", "objects oriented", "functional"],
+    "criator": "Rasmus Lerdorf",
+    "year": 1995,
+    "last version": "7.4.9"
+  },
+  {
+    "id": 6,
+    "language": "C++",
+    "typing style": ["static", "secure"],
+    "paradigm": ["abstraction", "objects oriented", "generic", "procedural"],
+    "criator": "Bjarne Stroustrup",
+    "year": 1979,
+    "last version": "ISO/IEC 14882:2017"
+  },
+  {
+    "id": 7,
+    "language": "C",
+    "typing style": ["static", "weak"],
+    "paradigm": ["structured", "imperative", "procedural"],
+    "criator": "Dennis Ritchie",
+    "year": 1972,
+    "last version": "C18"
+  },
+  {
+    "id": 8,
+    "language": "TypeScript",
+    "typing style": ["static", "strong", "inferred"],
+    "paradigm": "multiparadigm",
+    "criator": "Microsoft",
+    "year": 2012,
+    "last version": "4.0.2"
+  },
+  {
+    "id": 9,
+    "language": "Ruby",
+    "typing style": ["dynamic", "strong"],
+    "paradigm": "multiparadigm",
+    "criator": "Yukihiro Matsumoto",
+    "year": 1995,
+    "last version": "2.7.1"
+  },
+  {
+    "id": 10,
+    "language": "Swift",
+    "typing style": ["static", "strong", "inferred"],
+    "paradigm": ["objects oriented", "structured", "imperative", "compiled", "competitor", "functional"],
+    "criator": ["Chris Lattner", "Apple"],
+    "year": 2014,
+    "last version": "5.2.4"
+  }
+]

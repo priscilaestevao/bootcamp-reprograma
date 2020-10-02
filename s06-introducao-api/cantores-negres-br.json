@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "singer": "Iza",
+    "style": "pop"
+  },
+  {
+    "id": 2,
+    "singer": "Emicida",
+    "style": "hip hop"
+  },
+  {
+    "id": 3,
+    "singer": "Criolo",
+    "style": ["hip hop", "rap"]
+  },
+  {
+    "id": 4,
+    "banda": "Liniker",
+    "style": ["black music", "pop"]
+  },
+  {
+    "id": 5,
+    "banda": "Rincon Sapiência",
+    "style": ["hip hop", "rap"]
+  },
+  {
+    "id": 6,
+    "banda": "Karol Conka",
+    "style": ["hip hop", "pop"]
+  },
+  {
+    "id": 7,
+    "banda": "Thiago Elniño",
+    "style": ["hip hop", "rap"]
+  },
+  {
+    "id": 8,
+    "banda": "Larissa Luz",
+    "style": ["mpb", "samba-reggae"]
+  },
+  {
+    "id": 9,
+    "banda": "Luedji Luna",
+    "style": ["R&B", "jazz", "blues", "mpb"]
+  },
+  {
+    "id": 10,
+    "banda": "Mahmundi",
+    "style": ["indie", "pop", "mpb"]
+  }
+]

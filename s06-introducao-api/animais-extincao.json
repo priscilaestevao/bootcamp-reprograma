@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "species": "Ararajuba",
+    "scientific name": "Guaruba guarouba",
+    "type": "ave",
+    "habitat": "Amazônia"
+  },
+  {
+    "id": 2,
+    "species": "Aririnha",
+    "scientific name": "Pteronura brasiliensis",
+    "type": "mustelídeo",
+    "habitat": ["Pantanal", "Amazônia"]
+  },
+  {
+    "id": 3,
+    "species": "Baleia-franca-s0-sul",
+    "scientific name": "Eubalaena australis",
+    "type": "cetáceo",
+    "habitat": "Litoral brasileiro"
+  },
+  {
+    "id": 4,
+    "species": "Boto cor-de-rosa",
+    "scientific name": "Inia geoffrensis",
+    "type": "cetáceo",
+    "habitat": "Amazônia"
+  },
+  {
+    "id": 5,
+    "species": "Cervo-do-Pantanal",
+    "scientific name": "Blastocerus dichotomus",
+    "type": "cervídeo",
+    "habitat": "Pantanal"
+  },
+  {
+    "id": 6,
+    "species": "Cuxiú-preto",
+    "scientific name": "Chiropotes satanas",
+    "type": "primata",
+    "habitat": "Amazônia"
+  },
+  {
+    "id": 7,
+    "species": "Gato-maracajá",
+    "scientific name": "Leopardus wiedii",
+    "type": "felino",
+    "habitat": ["Amazônia", "Cerrado", "Mata Atlântica", "Pampas", "Pantanal"]
+  },
+  {
+    "id": 8,
+    "species": "Jacutinga",
+    "scientific name": "Aburria jacutinga",
+    "type": "ave",
+    "habitat": "Mata Atlântica"
+  },
+  {
+    "id": 9,
+    "species": "Lagartixa-da-areia",
+    "scientific name": "Liolaemus lutzae",
+    "type": "réptil",
+    "habitat": "Litoral do Rio de Janeiro"
+  },
+  {
+    "id": 10,
+    "species": "Lobo-guará",
+    "scientific name": "Chrysocyon brachyurus",
+    "type": "canídeo",
+    "habitat": ["Cerrado", "Pantanal", "Pampas"]
+  },
+  {
+    "id": 11,
+    "species": "Macaco-aranha-de-cara-preta",
+    "scientific name": "Ateles chamek",
+    "type": "primata",
+    "habitat": "Amazônia"
+  },
+  {
+    "id": 12,
+    "species": "Mico-leão-dourado",
+    "scientific name": "Leontopithecus rosalia",
+    "type": "primata",
+    "habitat": "Mata Atlântica"
+  },
+  {
+    "id": 13,
+    "species": "Morceguinho-do-cerrado",
+    "scientific name": "Lonchophylla dekeyseri",
+    "type": "morcego",
+    "habitat": "Cerrado"
+  },
+  {
+    "id": 14,
+    "species": "Muriqui-do-norte",
+    "scientific name": "Brachyteles hypoxanthus",
+    "type": "primata",
+    "habitat": "Mata Atlântica"
+  },
+  {
+    "id": 15,
+    "species": "Onça-Pintada",
+    "scientific name": "Panthera onca",
+    "type": "felino",
+    "habitat": "Brasil"
+  },
+  {
+    "id": 16,
+    "species": "Pica-pau-amarelo",
+    "scientific name": "Celeus flavus subflavus",
+    "type": "ave",
+    "habitat": ["Alagoas", "Bahia", "Espírito Santo", "Rio de Janeiro"]
+  },
+  {
+    "id": 17,
+    "species": "Saíra-militar",
+    "scientific name": "Tangara cyanocephala cearensis",
+    "type": "ave",
+    "habitat": "Mata Atlântica"
+  },
+  {
+    "id": 18,
+    "species": "Sapo-folha",
+    "scientific name": "Proceratophrys sanctaritae",
+    "type": "anfíbio",
+    "habitat": "Serra do Timbó"
+  },
+  {
+    "id": 19,
+    "species": "Soldadinho-do-araripe",
+    "scientific name": "Antilophia bokermanni",
+    "type": "ave",
+    "habitat": "Caatinga"
+  },
+  {
+    "id": 20,
+    "species": "Tamanduá-bandeira",
+    "scientific name": "Myrmecophaga tridactyla",
+    "type": "xenartro",
+    "habitat": ["Amazônia", "Cerrado", "Mata Atlântica", "Pantanal"]
+  },
+  {
+    "id": 21,
+    "species": "Tartaruga-de-couro",
+    "scientific name": "Dermochelys coriacea",
+    "type": "réptil",
+    "habitat": "Oceanos tropicais"
+  },
+  {
+    "id": 22,
+    "species": "Tartaruga-oliva",
+    "scientific name": "Lepidochelys olivacea",
+    "type": "réptil",
+    "habitat": ["Litoral sul do Alagoas", "Litoral norte da Bahia"]
+  },
+  {
+    "id": 23,
+    "species": "Tatu-bola",
+    "scientific name": "Tolypeutes tricinctus",
+    "type": "tatu",
+    "habitat": "Caatinga"
+  },
+  {
+    "id": 24,
+    "species": "Toninha",
+    "scientific name": "Pontoporia blainvillei",
+    "type": "cetáceo",
+    "habitat": ["Litoral brasileiro"]
+  },
+  {
+    "id": 25,
+    "species": "Uacari",
+    "scientific name": "Cacajao hosomi",
+    "type": "primata",
+    "habitat": "Amazônia"
+  },
+  {
+    "id": 26,
+    "species": "Udu-de-coroa-azul-do-nordeste",
+    "scientific name": "Momotus momota marcgraviana",
+    "type": "ave",
+    "habitat": ["Amazônia", "Pantanal", "Mata Atlântica"]
+  }
+]

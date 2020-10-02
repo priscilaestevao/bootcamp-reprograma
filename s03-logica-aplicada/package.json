@@ -1,0 +1,23 @@
+{
+  "name": "exercicio-semana-03",
+  "version": "1.0.0",
+  "description": "{reprograma} Aplicação de conhecimentos da Semana 03 - Lógica Aplicada",
+  "main": "exercicios-for.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaestevao/exercicio-semana-03.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilaestevao/exercicio-semana-03/issues"
+  },
+  "homepage": "https://github.com/priscilaestevao/exercicio-semana-03#readme"
+}

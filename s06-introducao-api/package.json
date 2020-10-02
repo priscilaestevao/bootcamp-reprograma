@@ -1,0 +1,26 @@
+{
+  "name": "exercicio-semana-06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaestevao/exercicio-semana-06.git"
+  },
+  "keywords": [
+    "nodejs",
+    "index"
+  ],
+  "author": "Priscila Estevao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilaestevao/exercicio-semana-06/issues"
+  },
+  "homepage": "https://github.com/priscilaestevao/exercicio-semana-06#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

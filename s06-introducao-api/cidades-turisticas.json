@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "local": "Lençois Maranhenses",
+    "city": ["Barreirinhas", "Santo Amaro", "Atins"],
+    "state": "Maranhão"
+  },
+  {
+    "id": 2,
+    "local": "Pipa",
+    "city": "Timbau do Sul",
+    "state": "Rio Grande do Norte"
+  },
+  {
+    "id": 3,
+    "local": "Morro de São Paulo",
+    "city": "Ilha de Tinharé",
+    "state": "Bahia"
+  },
+  {
+    "id": 4,
+    "local": "Chapada dos Veadeiros",
+    "city": "Cavalcante",
+    "state": "Goiás"
+  },
+  {
+    "id": 5,
+    "local": "Gramado",
+    "city": "Gramado",
+    "state": "Rio Grande do Sul"
+  },
+  {
+    "id": 6,
+    "local": "Praia da Ferradurinha",
+    "city": "Búzios",
+    "state": "Rio de Janeiro"
+  },
+  {
+    "id": 7,
+    "local": "Baía do Sancho",
+    "city": "Ilha de Fernando de Noronha",
+    "state": "Pernambuco"
+  },
+  {
+    "id": 8,
+    "local": "Porto de Galinhas",
+    "city": "Ipojuca",
+    "state": "Pernambuco"
+  },
+  {
+    "id": 9,
+    "local": "Jericoacoara",
+    "city": "Jijoca de Jericoacoara",
+    "state": "Ceará"
+  },
+  {
+    "id": 10,
+    "local": "São Miguel dos Milagres",
+    "city": "São Miguel dos Milagres",
+    "state": "Alagoas"
+  }
+]

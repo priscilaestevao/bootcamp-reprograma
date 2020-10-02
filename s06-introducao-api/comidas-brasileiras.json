@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "food": "feijoada",
+    "state": "",
+    "region": "Brasil"
+  },
+  {
+    "id": 2,
+    "food": "feijão tropeiro",
+    "state": "Minas Gerais",
+    "region": "Sudeste"
+  },
+  {
+    "id": 3,
+    "food": "galinhada com pequi",
+    "state": "Goiás",
+    "region": "Centro-Oeste"
+  },
+  {
+    "id": 4,
+    "food": "baião de dois",
+    "state": "",
+    "region": "Nordeste"
+  },
+  {
+    "id": 5,
+    "food": "acarajé",
+    "state": "Bahia",
+    "region": "Nordeste"
+  },
+  {
+    "id": 6,
+    "food": "moqueca",
+    "state": "Bahia",
+    "region": "Nordeste"
+  },
+  {
+    "id": 7,
+    "food": "pato no tucupi",
+    "state": ["Amazônia", "Pará"],
+    "region": "Norte"
+  },
+  {
+    "id": 8,
+    "food": "churrasco gaúcho",
+    "state": "Rio Grande do Sul",
+    "region": "Sul"
+  },
+  {
+    "id": 9,
+    "food": "rubacão",
+    "state": "Paraíba",
+    "region": "Nordeste"
+  },
+  {
+    "id": 10,
+    "food": "brigadeiro",
+    "state": "",
+    "region": "Brasil"
+  }
+]

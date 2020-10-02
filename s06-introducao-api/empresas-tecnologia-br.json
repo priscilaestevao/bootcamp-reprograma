@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "company": "Avanade",
+    "local": ["Alphaville", "Nova Lima", "Recife", "Rio de Janeiro", "São Paulo"]
+  },
+  {
+    "id": 2,
+    "company": "ThoughtWorks",
+    "local": ["Recife", "São Paulo", "Belo Horizonte", "Porto Alegre"]
+  },
+  {
+    "id": 3,
+    "company": "Accenture",
+    "local": ["Barueri", "Brasília", "Curitiba", "Nova Lima", "Recife", "Rio de Janeiro", "São Paulo", "Vitória"]
+  },
+  {
+    "id": 4,
+    "company": "Softex",
+    "local": "Recife"
+  },
+  {
+    "id": 5,
+    "company": "Porto Digital",
+    "local": "Recife"
+  },
+  {
+    "id": 6,
+    "company": "LinkApi",
+    "local": "São Paulo"
+  },
+  {
+    "id": 7,
+    "company": "Sky.One",
+    "local": "São Paulo"
+  },
+  {
+    "id": 8,
+    "company": "Cesar",
+    "local": ["Recife", "Sorocaba", "Curitiba", "Manaus", "São Paulo"]
+  },
+  {
+    "id": 9,
+    "company": "Vik Services",
+    "local": "São Paulo"
+  },
+  {
+    "id": 10,
+    "company": "Beyond Cloud",
+    "local": "Recife"
+  }
+]

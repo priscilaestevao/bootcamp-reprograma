@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "serie": "Orange is The New Black",
+    "criation": "Jenji Kohan",
+    "first episode": 2013,
+    "seasons": 7
+  },
+  {
+    "id": 2,
+    "serie": "She Gotta Have It",
+    "criation": "Spike Lee",
+    "first episode": 2017,
+    "seasons": 2
+  },
+  {
+    "id": 3,
+    "serie": "When They See Us",
+    "criation": "Ava DuVernay",
+    "first episode": 2019,
+    "seasons": 2
+  },
+  {
+    "id": 4,
+    "serie": "Pose",
+    "criation": ["Ryan Murphy", "Brad Falchuk", "Steven Canals"],
+    "first episode": 2018,
+    "seasons": 2
+  },
+  {
+    "id": 5,
+    "serie": "Dear White People",
+    "criation": "Justin Simien",
+    "first episode": 2017,
+    "seasons": 3
+  },
+  {
+    "id": 6,
+    "serie": "How to Get Away with Murder",
+    "criation": "Peter Nowalk",
+    "first episode": 2014,
+    "seasons": 6
+  },
+  {
+    "id": 7,
+    "serie": "Unsolved",
+    "criation": "Kyle Long",
+    "first episode": 2018,
+    "seasons": 1
+  },
+  {
+    "id": 8,
+    "serie": "Greenleaf",
+    "criation": "Craig Wright",
+    "first episode": 2016,
+    "seasons": 5
+  },
+  {
+    "id": 9,
+    "serie": "Black Eart Rising",
+    "criation": "Hugo Blick",
+    "first episode": 2018,
+    "seasons": 1
+  },
+  { 
+    "id": 10,
+    "serie": "Atlanta",
+    "criation": "Donald Glover",
+    "first episode": 2016,
+    "seasons": 2
+  }
+]

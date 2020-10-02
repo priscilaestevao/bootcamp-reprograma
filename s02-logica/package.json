@@ -1,0 +1,23 @@
+{
+  "name": "exercicio-semana-02",
+  "version": "1.0.0",
+  "description": "{reprograma} Aplicação de conhecimentos da Semana 02",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaestevao/exercicio-semana-02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilaestevao/exercicio-semana-02/issues"
+  },
+  "homepage": "https://github.com/priscilaestevao/exercicio-semana-02#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
