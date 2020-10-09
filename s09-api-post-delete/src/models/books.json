@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "titulo": "Minha história",
+        "autora": "Michelle Obama",
+        "paginas": 464,
+        "ano": 2018,
+        "editora": "Objetiva",
+        "estoque": "18"
+    },
+    {
+        "id": 2,
+        "titulo": "Hibisco roxo",
+        "autora": "Chimamanda Ngozi Adichie",
+        "paginas": "",
+        "ano": 2016,
+        "editora": "Companhia das Letras",
+        "estoque": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Sem gentileza",
+        "autora": "Futhi Ntshingila",
+        "paginas": 160,
+        "ano": 2016,
+        "editora": "Dublinense",
+        "estoque": 11
+    },
+    {
+        "id": 4,
+        "titulo": "A democracia da Abolição",
+        "autora": "Angela Davis",
+        "paginas": 128,
+        "ano": 2019,
+        "editora": "Difel",
+        "estoque": 5
+    },
+    {
+        "id": 5,
+        "titulo": "Quarto de Despejo",
+        "autora": "Carolina Maria de Jesus",
+        "paginas": 200,
+        "ano": 2014,
+        "editora": "Atica",
+        "estoque": 8
+    },
+    {
+        "id": 6,
+        "titulo": "Irmã Outsider",
+        "autora": "Audry Lorde",
+        "paginas": 240,
+        "ano": 2019,
+        "editora": "Autentica Editora LT",
+        "estoque": 9
+    },
+    {
+        "id": 7,
+        "titulo": "Um defeito de cor",
+        "autora": "Ana Maria Gonçalves",
+        "paginas": 952,
+        "ano": 2006,
+        "editora": "Record",
+        "estoque": 4
+    }
+]
