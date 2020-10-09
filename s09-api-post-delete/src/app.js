@@ -10,6 +10,6 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use('/funcionarios', employees);
+app.use('/', employees);
 
 module.exports = app;
