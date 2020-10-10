@@ -1,7 +1,6 @@
 const employees = require('../models/funcionarios.json');
 
 const getAllEmployees = (req, res) => {
-    console.log(req.url);
     res.status(200).send(employees);
 };
 
