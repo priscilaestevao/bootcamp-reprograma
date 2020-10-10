@@ -3,13 +3,8 @@
 	{
         "id": 1,
         "nome": "Alice Márcia Jesus",
-		"cpf": "88204408498",
-		"rg": "222270378",
+		"sobrenome": "Jesus",
 		"dataNasc": "15/02/1994",
-		"sexo": "feminino",
-		"email": "alicemarciajesus_@tradevalle.com.br",
-		"cep": "51020081",
-		"celular": "81985386168",
         "admissao": "02/04/2015",
         "funcao": "caixa"
 	}

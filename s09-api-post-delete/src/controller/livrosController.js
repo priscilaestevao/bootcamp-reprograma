@@ -1,7 +1,7 @@
 const books = require('../models/livros.json');
+const fs = require('fs');
 
 const getAllBooks = (req, res) => {
-    console.log(req.url);
     res.status(200).send(books);
 };
 
@@ -10,7 +10,21 @@ const getBookById = (req, res) => {
     res.status(200).send(books.find((book) => book.id == id))
 };
 
+const postBook = (req, res) => {
+    const { id, titulo, autora, genero, estoque, editora } = req.body;
+    books.push({ id, titulo, autora, genero, estoque, editora });
+
+    fs.writeFile('./src/models/livros.json', JSON.stringify(books), 'utf8', err => {
+        if(err) {
+            return res.status(424).send({ message: err });
+        }
+        console.log('Arquivo atualizado com sucesso!');
+    });
+    res.status(201).send(books);
+};
+
 module.exports = {
     getAllBooks,
-    getBookById
+    getBookById,
+    postBook
 };

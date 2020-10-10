@@ -4,5 +4,6 @@ const controller = require('../controller/livrosController');
 
 router.get('/', controller.getAllBooks);
 router.get('/:id', controller.getBookById);
+router.post('/', controller.postBook);
 
 module.exports = router;
