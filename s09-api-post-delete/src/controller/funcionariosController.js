@@ -1,4 +1,4 @@
-const employees = require('../models/employees.json');
+const employees = require('../models/funcionarios.json');
 
 const getAllEmployees = (req, res) => {
     console.log(req.url);

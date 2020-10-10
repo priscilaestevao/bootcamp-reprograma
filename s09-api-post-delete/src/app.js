@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const employees = require('./routes/employeesRoute');
+const employees = require('./routes/funcionariosRoute');
 
 app.use(express.json());
 
