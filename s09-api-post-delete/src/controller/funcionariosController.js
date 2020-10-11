@@ -10,6 +10,11 @@ const getEmployeeById = (req, res) => {
     res.status(200).send(employees.find((employee) => employee.id == id));
 };
 
+const getEmployeeList = (req, res) => {
+    const employeesList = employees.map((namesList) => namesList.nome);
+    res.status(200).send(employeesList);
+};
+
 const postEmployee = (req, res) => {
     const { id, nome, sobrenome, dataNasc, admissao, funcao } = req.body;
     employees.push({ id, nome, sobrenome, dataNasc, admissao, funcao });
@@ -42,5 +47,6 @@ module.exports = {
     getAllEmployees,
     getEmployeeById,
     postEmployee,
-    deleteEmployee
+    deleteEmployee,
+    getEmployeeList
 };
