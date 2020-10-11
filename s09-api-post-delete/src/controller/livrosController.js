@@ -15,6 +15,7 @@ const getBooksStock = (req, res) => {
     res.status(200).send(booksStock);
 };
 
+
 const postBook = (req, res) => {
     const { id, titulo, autora, genero, estoque, editora } = req.body;
     books.push({ id, titulo, autora, genero, estoque, editora });
