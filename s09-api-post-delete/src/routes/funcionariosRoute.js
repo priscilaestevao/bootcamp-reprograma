@@ -4,6 +4,7 @@ const controller = require('../controller/funcionariosController');
 
 router.get('/', controller.getAllEmployees);
 router.get('/:id', controller.getEmployeeById);
-router.post('/', controller.postEmployeed);
+router.post('/', controller.postEmployee);
+router.delete('/:id', controller.deleteEmployee);
 
 module.exports = router;
