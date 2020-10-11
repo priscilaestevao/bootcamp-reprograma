@@ -10,6 +10,11 @@ const getBookById = (req, res) => {
     res.status(200).send(books.find((book) => book.id == id))
 };
 
+const getBooksStock = (req, res) => {
+    const booksStock = books.filter((booksAvaiable) => booksAvaiable.estoque == true);
+    res.status(200).send(booksStock);
+};
+
 const postBook = (req, res) => {
     const { id, titulo, autora, genero, estoque, editora } = req.body;
     books.push({ id, titulo, autora, genero, estoque, editora });
@@ -41,6 +46,7 @@ const deleteBook = (req, res)  => {
 module.exports = {
     getAllBooks,
     getBookById,
+    getBooksStock,
     postBook,
-    deleteBook
+    deleteBook,
 };
