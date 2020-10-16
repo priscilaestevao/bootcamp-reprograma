@@ -94,6 +94,21 @@ const putBook = (req, res) => {
   }
 };
 
+const patchBook = (req, res) => {
+  const id = req.params.id;
+  const bookUpdate = req.body;
+
+  try {
+    const bookToUpdate = books.find((bookFound) => bookFound.id == id);
+    Object.keys(bookUpdate).forEach((key) => {
+      bookToUpdate[key] = bookUpdate[key];
+    });
+    return res.status(200).send(books);
+  } catch (err) {
+    return res.status(424).send({ message: err });
+  }
+};
+
 module.exports = {
   getAllBooks,
   getBookById,
@@ -101,4 +116,5 @@ module.exports = {
   postBook,
   deleteBook,
   putBook,
+  patchBook,
 };
