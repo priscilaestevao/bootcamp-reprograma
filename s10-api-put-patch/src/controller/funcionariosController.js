@@ -19,7 +19,7 @@ const getEmployeeAge = (req, res) => {
   const id = req.params.id;
   const filteredEmployee = employees.find((employee) => employee.id == id);
   const employeeName = filteredEmployee.nome;
-  const employeeBirth = filteredEmployee.dataNasc.split('/'); //.split() transforma a string em uma array, substituindo o <;> pela vírgula da array.
+  const employeeBirth = filteredEmployee.dataNasc.split("/"); //.split() transforma a string em uma array, substituindo o <;> pela vírgula da array.
 
   const employeeAge = parseInt(2020) - parseInt(employeeBirth[2]); //subtração do ano atual (2020) com o ano de nascimento do funcionário que está no índice 2.
   res.status(200).send({
@@ -70,11 +70,39 @@ deleteEmployee = (req, res) => {
   res.status(201).send(employees);
 };
 
+putEmployee = (req, res) => {
+  const id = req.params.id;
+  const employeeUpdate = req.body;
+
+  try {
+    const employeeToUpdate = employees.find(
+      (employeeFound) => employeeFound.id == id
+    );
+    const index = employees.indexOf(employeeToUpdate);
+    employees.splice(index, 1, employeeUpdate);
+
+    fs.writeFile(
+      "./src/models/funcionarios.json",
+      JSON.stringify(employees),
+      "utf8",
+      (err) => {
+        if (err) {
+          return res.status(424).send({ message: err });
+        }
+        console.log("Arquivo atualizado com sucesso!");
+      }
+    );
+  } catch (err) {
+    return res.status(500).send({ message: err });
+  }
+};
+
 module.exports = {
   getAllEmployees,
   getEmployeeById,
   getEmployeeAge,
+  getEmployeeList,
   postEmployee,
   deleteEmployee,
-  getEmployeeList,
+  putEmployee,
 };

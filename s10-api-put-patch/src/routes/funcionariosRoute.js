@@ -8,5 +8,6 @@ router.get('/lista-nomes', controller.getEmployeeList);
 router.get('/:id', controller.getEmployeeById);
 router.post('/', controller.postEmployee);
 router.delete('/:id', controller.deleteEmployee);
+router.put('/:id', controller.putEmployee);
 
 module.exports = router;
