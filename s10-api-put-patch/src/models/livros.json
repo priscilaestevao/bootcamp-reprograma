@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "Minha história",
+    "autora": "Michelle Obama",
+    "genero": "biografia",
+    "estoque": true,
+    "editora": "Objetiva"
+  },
+  {
+    "id": 2,
+    "titulo": "Americanah",
+    "autora": "Chimamanda Ngozi Adichie",
+    "genero": "romance",
+    "estoque": true,
+    "editora": "Companhia das Letras"
+  },
+  {
+    "id": 3,
+    "titulo": "A cor púrpura",
+    "autora": "Alice Walker",
+    "genero": "romance",
+    "estoque": false,
+    "editora": "José Olympio"
+  },
+  {
+    "id": 4,
+    "titulo": "Um defeito de cor",
+    "autora": "Ana Maria Gonçalves",
+    "genero": "romance",
+    "estoque": false,
+    "editora": "Record"
+  },
+  {
+    "id": 5,
+    "titulo": "Minha história",
+    "autora": "Michelle Obama",
+    "genero": "biografia",
+    "estoque": true,
+    "editora": "Objetiva"
+  },
+  {
+    "id": 6,
+    "titulo": "Eu sei porque o pássaro canta na gaiola",
+    "autora": "Maya Angelou",
+    "genero": "biografia",
+    "estoque": true,
+    "editora": "Astral"
+  },
+  {
+    "id": 7,
+    "titulo": "Quando me descobri negra",
+    "autora": "Bianca Santana",
+    "genero": "literatura juvenil",
+    "estoque": true,
+    "editora": "Sesi"
+  },
+  {
+    "id": 8,
+    "titulo": "Escritos de uma vida",
+    "autora": "Sueli Carneiro",
+    "genero": "política e atualidades",
+    "estoque": false,
+    "editora": "Letramento"
+  },
+  {
+    "id": 9,
+    "titulo": "A mulher de pés descalços",
+    "autora": "Sholastique Mukasonga",
+    "genero": "romance",
+    "estoque": true,
+    "editora": "Editora Nos"
+  },
+  {
+    "id": 10,
+    "titulo": "O feminismo é para todo mundo",
+    "autora": "bell hooks",
+    "genero": "sociologia",
+    "estoque": true,
+    "editora": "Rosa dos Tempos"
+  }
+]
