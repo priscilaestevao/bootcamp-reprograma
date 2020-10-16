@@ -97,6 +97,21 @@ putEmployee = (req, res) => {
   }
 };
 
+const patchEmployee = (req, res) => {
+  const id = req.params.id;
+  const employeeUpdate = req.body;
+
+  try {
+    const employeeToUpdate = employees.find((employeeFound) => employeeFound.id == id);
+    Object.keys(employeeUpdate).forEach((key) => {
+      employeeToUpdate[key] = employeeUpdate[key];
+    });
+    return res.status(200).send(employees);
+  } catch (err) {
+    return res.status(424).send({ message: err });
+  }
+};
+
 module.exports = {
   getAllEmployees,
   getEmployeeById,
@@ -105,4 +120,5 @@ module.exports = {
   postEmployee,
   deleteEmployee,
   putEmployee,
+  patchEmployee
 };
