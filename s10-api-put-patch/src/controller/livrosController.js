@@ -20,7 +20,10 @@ const getBooksStock = (req, res) => {
 const postBook = (req, res) => {
   const id = books[books.length - 1].id + 1;
   const book = req.body;
-  const newBook = { id, ...book };
+  const newBook = {
+    id,
+    ...book,
+  };
   books.push(newBook);
 
   fs.writeFile(
@@ -29,7 +32,9 @@ const postBook = (req, res) => {
     "utf8",
     (err) => {
       if (err) {
-        return res.status(424).send({ message: err });
+        return res.status(424).send({
+          message: err,
+        });
       }
       console.log("Arquivo atualizado com sucesso!");
     }
@@ -49,12 +54,44 @@ const deleteBook = (req, res) => {
     "utf8",
     (err) => {
       if (err) {
-        return res.status(424).send({ message: err });
+        return res.status(424).send({
+          message: err,
+        });
       }
       console.log("Arquivo deletado com sucesso!");
     }
   );
   res.status(201).send(books);
+};
+
+const putBook = (req, res) => {
+  const id = req.params.id;
+  const bookUpdate = req.body;
+
+  try {
+    const bookToUpdate = books.find((bookFound) => bookFound.id == id);
+    const index = books.indexOf(bookToUpdate);
+    books.splice(index, 1, bookUpdate);
+
+    fs.writeFile(
+      "./src/models/livros.json",
+      JSON.stringify(books),
+      "utf8",
+      (err) => {
+        if (err) {
+          return res.status(424).send({
+            message: err,
+          });
+        }
+        console.log("Arquivo atualizado com sucesso!");
+      }
+    );
+    res.status(200).send(books);
+  } catch (err) {
+    return res.status(500).send({
+      message: err,
+    });
+  }
 };
 
 module.exports = {
@@ -63,4 +100,5 @@ module.exports = {
   getBooksStock,
   postBook,
   deleteBook,
+  putBook,
 };

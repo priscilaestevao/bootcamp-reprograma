@@ -7,5 +7,6 @@ router.get('/estoque', controller.getBooksStock);
 router.get('/:id', controller.getBookById);
 router.post('/', controller.postBook);
 router.delete('/:id', controller.deleteBook);
+router.put('/:id', controller.putBook);
 
 module.exports = router;

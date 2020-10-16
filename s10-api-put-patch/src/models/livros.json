@@ -33,11 +33,11 @@
   },
   {
     "id": 5,
-    "titulo": "Mulheres, raça e classe",
-    "autora": "Angela Davis",
-    "genero": "sociologia",
+    "titulo": "Minha história",
+    "autora": "Michelle Obama",
+    "genero": "biografia",
     "estoque": true,
-    "editora": "Boitempo Editorial"
+    "editora": "Objetiva"
   },
   {
     "id": 6,
@@ -78,13 +78,5 @@
     "genero": "sociologia",
     "estoque": true,
     "editora": "Rosa dos Tempos"
-  },
-  {
-    "id": 11,
-    "titulo": "Dororidade",
-    "autora": "Vilma Piedade",
-    "genero": "poesia",
-    "estoque": true,
-    "editora": "Nos Editora"
   }
 ]
