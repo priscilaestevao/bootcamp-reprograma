@@ -20,6 +20,6 @@
 
 **7** - Seria de grande valia se nossa livaria tivesse acesso a uma lista com todos os livros por categoria. _(desafio não realizado)_
 
-**8** - A livaria gostaria de ter acesso a idade de um funcionário, de acordo com seu id. _(desafio não realizado)_
+**8** - A livaria gostaria de ter acesso a idade de um funcionário, de acordo com seu id.
 
 **Observação:** Popule nosso model de livros e funcionários com pelo menos 10 registros em cada.
