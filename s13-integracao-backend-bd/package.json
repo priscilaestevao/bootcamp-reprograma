@@ -1,17 +1,24 @@
 {
   "name": "s13-integracao-backend-bd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Clients API",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "priscila-estevao",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priscilaestevao/bootcamp-reprograma/tree/main/s13-integracao-backend-bd"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "priscilaestevao",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.12",
-    "nodemon": "^2.0.6"
+    "express": "^4.17.1"
   }
 }

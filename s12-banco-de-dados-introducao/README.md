@@ -53,7 +53,7 @@ Existem várias opções no mercado para banco de dados e a escolha depende sobr
 <b>
 Abaixo, tabela que mostra quando utilizar um banco de dados SQL ou NoSQL:
 </b>
-<h4 align="center">
+<h1 align="center">
     <img src="public/images/RDBMSxNoSQL-1.png" alt="diferenças entre os dois tipos de banco de dados" width="600">
 
 ## O que é MongoDB?
@@ -62,7 +62,7 @@ Abaixo, tabela que mostra quando utilizar um banco de dados SQL ou NoSQL:
 
 <h4 align="center">
     <img src="public/images/mongodb.png" alt="logo do mongoDB" width="300">
-</h4>
+</h1>
 
 Dados desestruturados são um problema para a imensa maioria dos bancos de dados relacionais, mas não tanto para o MongoDB. Quando o seu schema é variável, é livre, usar MongoDB vem muito bem a calhar. Os documentos BSON (JSON binário) do Mongo são schemaless e aceitam quase qualquer coisa que você quiser armazenar, sendo um mecanismo de persistência perfeito para uso com tecnologias que trabalham com JSON nativamente, como JavaScript (e consequentemente Node.js).
 
