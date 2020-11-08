@@ -9,9 +9,26 @@ const getAllClients = (req, res) => {
   });
 };
 
-const buyersClients = (req, res) => {};
+const buyersClients = (req, res) => {
+  clients.find({ comprou: true }, {nome: 1, email: 1, _id: 0}, (err, clients) => {
+    if (err) {
+      res.status(424).send({ message: err.message });
+    }
+    res.status(200).send(clients);
+  })
+};
 
-const clientByCPF = (req, res) => {};
+const clientByCPF = (req, res) => {
+  const cpf = req.params.cpf
+  clients.find({ cpf }, (err, client) => {
+    if (err) {
+      res.status(424).send({ message: err.message })
+    } else if (client.length > 0) {
+      res.status(200).send(client)
+    }
+    res.status(404).send({ message: "Client not found!" })
+  })
+};
 
 const newClient = (req, res) => {
   let client = new clients(req.body);
