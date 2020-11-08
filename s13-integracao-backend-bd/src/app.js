@@ -14,7 +14,9 @@ db.once("open", () => {
 });
 
 const index = require("./routes/index");
-const clients = require("./routes/clients");
+const clients = require("./routes/clientsRoute");
+
+app.use(express.json());
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
