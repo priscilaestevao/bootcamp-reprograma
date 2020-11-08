@@ -1,7 +1,16 @@
 const clients = require("../models/clients");
 
-const getAllClients = (req, res) => {
-  res.status(200).send(clients);
-};
+const getAllClients = (req, res) => {};
 
-module.exports = { getAllClients };
+const buyersClients = (req, res) => {};
+
+const clientByCPF = (req, res) => {};
+
+const newClient = (req, res) => {};
+
+module.exports = {
+  getAllClients,
+  buyersClients,
+  clientByCPF,
+  newClient,
+};
