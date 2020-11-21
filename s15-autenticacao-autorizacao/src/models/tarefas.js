@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const tasksSchema = new mongoose.Schema(
   {
-    id: { type: Number },
-    descrição: { type: String },
+    nº: { type: Number },
+    descricao: { type: String },
     dataInclusao: { type: String },
     concluido: { type: Boolean },
     nomeColaboradora: { type: String },

@@ -22,6 +22,17 @@ const getAllTasks = (req, res) => {
   });
 };
 
+const createTask = (req, res) => {
+  let task = new tasks(req.body);
+  task.save((err) => {
+    if (err) {
+      res.status(424).send({ message: err });
+    }
+    res.status(200).send(task.toJSON());
+  })
+}
+
 module.exports = {
   getAllTasks,
+  createTask
 };
