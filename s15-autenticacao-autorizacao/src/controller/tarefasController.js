@@ -15,7 +15,7 @@ const getAllTasks = (req, res) => {
   const token = auth(req, res);
   jwt.verify(token, SECRET, (err) => {
     if (err) {
-      return res.status(403).send({ message: err });
+      return res.status(403).send("Invalid token!");
     }
     tasks.find((err, tasks) => {
       if (err) {
@@ -31,25 +31,24 @@ const taskById = (req, res) => {
   const token = auth(req, res);
   jwt.verify(token, SECRET, (err) => {
     if (err) {
-      return res.status(403).send({ message: err });
+      return res.status(403).send("Invalid token!");
     }
     tasks.find({ id }, (err, task) => {
       if (!task.length) {
         return res.status(404).send("Task not found!");
-      }
-      else if (err) {
+      } else if (err) {
         return res.status(424).send({ message: err });
       }
       res.status(200).send(task);
     });
   });
-}
+};
 
 const createTask = (req, res) => {
   const token = auth(req, res);
   jwt.verify(token, SECRET, (err) => {
     if (err) {
-      return res.status(424).send({ message: err });
+      return res.status(403).send("Invalid token!");
     }
     let task = new tasks(req.body);
     task.save((err) => {
@@ -61,8 +60,31 @@ const createTask = (req, res) => {
   });
 };
 
+const deleteTask = (req, res) => {
+  const id = req.params.id;
+  const token = auth(req, res);
+  jwt.verify(token, SECRET, (err) => {
+    if (err) {
+      return res.status(403).send("Invalid token!");
+    }
+    tasks.find({ id }, (err, task) => {
+      if (!task.length) {
+        return res.status(404).send("Task not found!");
+      } else {
+        tasks.deleteOne({ id }, (err) => {
+          if (err) {
+            return res.status(424).send({ message: err });
+          }
+          res.status(200).send("Tasks successfully deleted!");
+        });
+      }
+    });
+  });
+};
+
 module.exports = {
   getAllTasks,
   taskById,
   createTask,
+  deleteTask,
 };
