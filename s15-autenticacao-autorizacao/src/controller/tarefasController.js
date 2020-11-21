@@ -26,6 +26,25 @@ const getAllTasks = (req, res) => {
   });
 };
 
+const taskByNum = (req, res) => {
+  const id = req.params.id;
+  const token = auth(req, res);
+  jwt.verify(token, SECRET, (err) => {
+    if (err) {
+      return res.status(403).send({ message: err });
+    }
+    tasks.find({ id }, (err, task) => {
+      if (!task.length) {
+        return res.status(404).send("Task not found!");
+      }
+      else if (err) {
+        return res.status(424).send({ message: err });
+      }
+      res.status(200).send(task);
+    });
+  });
+}
+
 const createTask = (req, res) => {
   const token = auth(req, res);
   jwt.verify(token, SECRET, (err) => {
@@ -44,5 +63,6 @@ const createTask = (req, res) => {
 
 module.exports = {
   getAllTasks,
+  taskByNum,
   createTask,
 };
