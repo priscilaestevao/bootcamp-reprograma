@@ -1,5 +1,7 @@
 const collaborators = require("../models/colaboradoras");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+const SECRET = process.env.SECRET;
 
 const getAllCollaborators = (req, res) => {
   collaborators.find((err, collaborators) => {
@@ -23,7 +25,27 @@ const createCollaborator = (req, res) => {
   });
 };
 
+const login = (req, res) => {
+  collaborators.findOne({ email: req.body.email }, (err, collaborator) => {
+    if (!collaborator) {
+      return res
+        .status(404)
+        .send(`No collaborator registered with email ${req.body.email}.`);
+    }
+    const validPassword = bcrypt.compareSync(
+      req.body.senha,
+      collaborator.senha
+    );
+    if (!validPassword) {
+      return res.status(403).send("Invalid password!");
+    }
+    const token = jwt.sign({ email: req.body.email.email }, SECRET);
+    return res.status(200).send(token);
+  });
+};
+
 module.exports = {
   getAllCollaborators,
-  createCollaborator
+  createCollaborator,
+  login
 };
