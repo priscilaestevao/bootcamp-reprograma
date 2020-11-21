@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const colaboratorsSchema = new mongoose.Schema(
+const collaboratorsSchema = new mongoose.Schema(
   {
     nome: { type: String },
     email: { type: String },
@@ -10,6 +10,6 @@ const colaboratorsSchema = new mongoose.Schema(
   }
 );
 
-const colaborators = mongoose.model("colaborators", colaboratorsSchema);
+const collaborators = mongoose.model("collaborators", collaboratorsSchema);
 
-module.exports = colaborators;
+module.exports = collaborators;
