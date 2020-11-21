@@ -26,7 +26,7 @@ const getAllTasks = (req, res) => {
   });
 };
 
-const taskByNum = (req, res) => {
+const taskById = (req, res) => {
   const id = req.params.id;
   const token = auth(req, res);
   jwt.verify(token, SECRET, (err) => {
@@ -63,6 +63,6 @@ const createTask = (req, res) => {
 
 module.exports = {
   getAllTasks,
-  taskByNum,
+  taskById,
   createTask,
 };
