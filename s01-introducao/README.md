@@ -28,9 +28,7 @@ O objetivo da CSS é ser usada para definir estilos para os seus documentos, inc
 
 Uma folha de estilo externa tem muitas vantagens como ajudar a evitar código repetido, facilitar a manutenção e permitir fazer mudança no site inteiro alterando apenas um arquivo. Usando a CSS, você armazena as informações de estilo em arquivos comuns que todas as páginas compartilham. Por exemplo, quando você linka vários documentos para a mesma folha de estilo que define a cor dos cabeçalhos h2, você pode aplicar o estilo para tags de cabeçalho h2 globalmente alterando apenas um atributo CSS.
 
-Quando um usuário exibe uma página web, o navegador carrega as informações de estilo juntamente com o conteúdo da página. Quando ele imprime uma página da web, você pode fornecer informações de estilos diferentes, fazendo com que a página impressa fique de fácil leitura. Conheça nosso serviço de [Hospedagem de Site](https://www.isbrasil.info/).
-
-![Revenda](https://ads.isbrasil.info/www/images/7c125b8bde15094341fef97519154831.jpg)
+Quando um usuário exibe uma página web, o navegador carrega as informações de estilo juntamente com o conteúdo da página. Quando ele imprime uma página da web, você pode fornecer informações de estilos diferentes, fazendo com que a página impressa fique de fácil leitura.
 
 ## Como o HTML e o CSS trabalham juntos?
 
