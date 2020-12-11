@@ -1,0 +1,25 @@
+{
+  "name": "reprograma-14-crud-bookstore",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de um CRUD completo de uma livraria integrado com o MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaestevao/reprograma-14-crud-bookstore.git"
+  },
+  "author": "priscilaestevao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilaestevao/reprograma-14-crud-bookstore/issues"
+  },
+  "homepage": "https://github.com/priscilaestevao/reprograma-14-crud-bookstore#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13",
+    "nodemon": "^2.0.6"
+  }
+}
