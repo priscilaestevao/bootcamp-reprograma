@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/images/Library-bro.png" alt="mulher negra usando computador" width="300">
+  <img src="../public/images/library.png" alt="duas pessoas negras em uma livraria" width="300">
 <p align="center">API - Post + Delet<p>
 
 ## Desafio da Semana
@@ -23,3 +23,7 @@
 **8** - A livaria gostaria de ter acesso a idade de um funcionário, de acordo com seu id.
 
 **Observação:** Popule nosso model de livros e funcionários com pelo menos 10 registros em cada.
+
+## Repositório da aula da semana:
+
+[reprograma/on7-porto-s9-api-post-delete](https://github.com/reprograma/on7-porto-s9-api-post-delete)

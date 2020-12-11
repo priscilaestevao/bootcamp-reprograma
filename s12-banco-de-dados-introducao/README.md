@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/images/secure-server-pana.png" alt="mulher no computador ao lado de um servidor" width="400">
+  <img src="../public/images/server.png" alt="mulher segurando um computador ao lado de um servidor" width="300">
 <p align="center">Banco de Dados - Introdução<p>
 
 ## O que é um banco de dados?
@@ -54,14 +54,14 @@ Existem várias opções no mercado para banco de dados e a escolha depende sobr
 Abaixo, tabela que mostra quando utilizar um banco de dados SQL ou NoSQL:
 </b>
 <h1 align="center">
-    <img src="public/images/RDBMSxNoSQL-1.png" alt="diferenças entre os dois tipos de banco de dados" width="600">
+    <img src="../public/images/RDBMSxNoSQL-1.png" alt="diferenças entre os dois tipos de banco de dados" width="600">
 
 ## O que é MongoDB?
 
 É um tipo de Bancos de Dados orientados a documentos e NoSQL. O **MongoDB** tem como característica ser código-fonte aberto, gratuito, de alta performance, não possui esquemas, escrito em C++, multiplataforma e ser formado por um conjunto de aplicativos JSON.
 
 <h4 align="center">
-    <img src="public/images/mongodb.png" alt="logo do mongoDB" width="300">
+    <img src="../public/images/mongodb.png" alt="logo do mongoDB" width="300">
 </h1>
 
 Dados desestruturados são um problema para a imensa maioria dos bancos de dados relacionais, mas não tanto para o MongoDB. Quando o seu schema é variável, é livre, usar MongoDB vem muito bem a calhar. Os documentos BSON (JSON binário) do Mongo são schemaless e aceitam quase qualquer coisa que você quiser armazenar, sendo um mecanismo de persistência perfeito para uso com tecnologias que trabalham com JSON nativamente, como JavaScript (e consequentemente Node.js).
@@ -78,3 +78,6 @@ Dados desestruturados são um problema para a imensa maioria dos bancos de dados
 
 [Tutorial MongoDB para iniciantes em NoSQL](https://www.luiztools.com.br/post/tutorial-mongodb-para-iniciantes-em-nosql/)
 
+## Repositório da aula da semana:
+
+[reprograma/on7-porto-s12-banco-de-dados](https://github.com/reprograma/on7-porto-s12-banco-de-dados)

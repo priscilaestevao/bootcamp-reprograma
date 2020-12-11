@@ -1,6 +1,7 @@
-# HTML x CSS: afinal, quais são as diferenças?
-
-![HTMLxCSS](https://www.isbrasil.info/blog/_images/blog/destaques/2018/05/28/html-x-css-afinal-quais-sao-as-diferencas_1b35feb55a5e269746bc6bc148337033.jpg)
+<h1 align="center">
+  <img src="../public/images/html-css.png" alt="computador" width="300">
+<p align="center">HTML x CSS: afinal, quais são as diferenças?<p>
+</h1>
 
 A internet já faz parte do cotidiano da maioria das pessoas e a divisão entre mundo real e o virtual é cada dia menor. Hoje, a facilidade de acesso permite que qualquer pessoa gere conteúdo. Por isso, tão importante quanto ter um site ou um blog na internet, é ter essas páginas construídas de forma organizada e atrativa, para garantir que a imagem da marca fique consolidada e seja respeitada na web. As linguagens como HTML e CSS podem favorecer esses objetivos. Mas você conhece a diferenças entre essas duas linguagens de programação? Leia todo esse artigo, conheça quais são e fique por dentro do assunto. 
 
@@ -10,7 +11,7 @@ A linguagem HTML (HyperText Markup Language) significa linguagem de marcação d
 
 Já o CSS (Cascading Style Sheets) significa Folhas de Estilo em Cascata é uma linguagem de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como HTML ou XML. Seu principal benefício é prover a separação entre o formato e o conteúdo de um documento. O CSS é uma linguagem mais voltada para a estética, utilizada para formatar os conteúdos já estruturados.
 
-Essa linguagem é responsável pela aparência da página, como o posicionamento dos elementos, cores e tudo que torne o site mais visualmente agradável para a navegação. Para ter conhecimentos em CSS o web designer precisa primeiramente conhecer o HTML profundamente, senão ele não entenderia conceitos de como aplicar o estilo com o CSS. Leia nosso post sobre [Como criar um blog](https://www.isbrasil.info/blog/como-criar-um-blog-passo-a-passo-completo-para-criar-o-seu-blog.html)
+Essa linguagem é responsável pela aparência da página, como o posicionamento dos elementos, cores e tudo que torne o site mais visualmente agradável para a navegação. Para ter conhecimentos em CSS o web designer precisa primeiramente conhecer o HTML profundamente, senão ele não entenderia conceitos de como aplicar o estilo com o CSS.
 
 ## Principais diferenças
 
@@ -18,7 +19,7 @@ Essa linguagem é responsável pela aparência da página, como o posicionamento
 
 O HTML tem como proposta ser a linguagem universal dos mais diversos meios de acesso, a fim de tornar possível a distribuição de informações de maneira global. A versão mais atual, o HTML 5, já é uma das plataformas mais usadas na web, pois oferece recursos inovadores, como a possibilidade de atuação off-line, armazenamento de dados em dispositivos clientes, conectividade mais eficiente e mais facilidade para trabalhar com recursos multimídia.
 
-Outra vantagem do HTML 5 é sua excelente integração com o CSS 3, que é a última versão do CSS. Capaz de construir animações tanto em 2D quanto em 3D, com efeitos de rotação, movimento e transição, o CSS 3, unido ao HTML 5, facilita a criação de sites e aplicativos mais complexos e esteticamente melhores. Aprimore seus conhecimentos em vantagens de [Criar um Blog](https://www.isbrasil.info/blog/vantagens-de-ter-um-blog-em-wordpress.html)
+Outra vantagem do HTML 5 é sua excelente integração com o CSS 3, que é a última versão do CSS. Capaz de construir animações tanto em 2D quanto em 3D, com efeitos de rotação, movimento e transição, o CSS 3, unido ao HTML 5, facilita a criação de sites e aplicativos mais complexos e esteticamente melhores.
 
 Uma linguagem de marcação como HTML também fornece maneiras de especificar estilo. Por exemplo, você pode usar a tag ```<b>``` para fazer o texto em negrito e pode especificar a cor de fundo na sua tag ```<body>```.
 
@@ -28,9 +29,7 @@ O objetivo da CSS é ser usada para definir estilos para os seus documentos, inc
 
 Uma folha de estilo externa tem muitas vantagens como ajudar a evitar código repetido, facilitar a manutenção e permitir fazer mudança no site inteiro alterando apenas um arquivo. Usando a CSS, você armazena as informações de estilo em arquivos comuns que todas as páginas compartilham. Por exemplo, quando você linka vários documentos para a mesma folha de estilo que define a cor dos cabeçalhos h2, você pode aplicar o estilo para tags de cabeçalho h2 globalmente alterando apenas um atributo CSS.
 
-Quando um usuário exibe uma página web, o navegador carrega as informações de estilo juntamente com o conteúdo da página. Quando ele imprime uma página da web, você pode fornecer informações de estilos diferentes, fazendo com que a página impressa fique de fácil leitura. Conheça nosso serviço de [Hospedagem de Site](https://www.isbrasil.info/).
-
-![Revenda](https://ads.isbrasil.info/www/images/7c125b8bde15094341fef97519154831.jpg)
+Quando um usuário exibe uma página web, o navegador carrega as informações de estilo juntamente com o conteúdo da página. Quando ele imprime uma página da web, você pode fornecer informações de estilos diferentes, fazendo com que a página impressa fique de fácil leitura.
 
 ## Como o HTML e o CSS trabalham juntos?
 
@@ -47,22 +46,25 @@ O local do arquivo CSS fica dentro das tags `<head>`:
 
 ### Estrutura básica do HTML:
 
-p {color: blue;}
-Arquivo salvo como style.css
-
 _Estrutura do HTML inserido o código CSS:_
 
-````<html>
-<head>
-<link href=”style.css” rel=”stylesheet” type=”text/css”>
-<title> Titulo </title>
-</head>
-<body>
-<p>Teste de cor azul no paragrafo </p>
-</body>
+````
+<html>
+  <head>
+    <link href=”style.css” rel=”stylesheet” type=”text/css”>
+    <title> Titulo </title>
+  </head>
+  <body>
+    <p>Teste de cor azul no paragrafo </p>
+  </body>
 </html>
-```
+````
+
 Arquivo salvo como index.html
 Atualmente, utiliza-se as versões do HTML 5 e CSS 3 que passam por mudanças em suas regras para exibições nos navegadores atuais que existem, que visam manter a ordem da criação de sites e padronização em todo o mundo. 
 Ainda tem dúvidas?  Sem problemas. Em nosso blog você pode ler mais sobre esse e outros assuntos.
-Fonte: [ISBRASIL](https://www.isbrasil.info/blog/html-x-css-afinal-quais-sao-as-diferencas.html)
+Fonte: [ISBRASIL](https://www.isbrasil.info/blog/html-x-css-afinal-quais-sao-as-diferencas.html).
+
+## Repositório da aula da semana:
+
+[reprograma/on7-porto-s1-introducao](https://github.com/reprograma/on7-porto-s1-introducao)

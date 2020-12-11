@@ -82,9 +82,25 @@ const deleteTask = (req, res) => {
   });
 };
 
+const deleteCompletedTask = (req, res) => {
+  const token = auth(req, res);
+  jwt.verify(token, SECRET, (err) => {
+    if (err) {
+      return res.status(403).send("Invalid token!");
+    }
+    tasks.deleteMany({ concluido: true }, (err) => {
+      if (err) {
+        return res.status(424).send({ message: err });
+      }
+      res.status(200).send("Tasks successfully deleted!");
+    });
+  });
+};
+
 module.exports = {
   getAllTasks,
   taskById,
   createTask,
   deleteTask,
+  deleteCompletedTask,
 };

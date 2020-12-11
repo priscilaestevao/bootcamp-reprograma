@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/images/shopping-on-line.png" alt="mulher jogando vídeo game de frente para tv" width="300">
+  <img src="../public/images/shopping.png" alt="mulher olhando vitrine de uma loja" width="300">
 <p align="center">Projeto de integração com o MongoDB<p>
 
 ## Passo a passo para execução do desafio da semana
@@ -85,3 +85,7 @@ Resposta exemplo:
     }
 ]
 ```
+
+## Repositório da aula da semana:
+
+[reprograma/on7-porto-s13-integracao-bd](https://github.com/reprograma/on7-porto-s13-integracao-bd)

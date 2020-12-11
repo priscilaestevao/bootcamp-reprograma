@@ -1,9 +1,6 @@
-# Exercício {reprograma} - Semana 02 - Lógica  :books:
-
-
-## Calculadora de Média
-
-![Menina Calculando](https://static.vecteezy.com/system/resources/previews/000/372/716/non_2x/little-girl-using-calculator-vector.jpg)
+<h1 align="center">
+  <img src="../public/images/calculator.png" alt="jovem negro e uma calculadora" width="300">
+<p align="center">Lógica - Desafio da Calculadora<p>
 
 ## Desafio :pushpin:
 
@@ -23,3 +20,7 @@ O desafio da Semana 02 consiste em criar uma **calculadora de média** para dize
 * Variáveis;
 * Resolução de problemas / Algoritmos;
 * parseInt / parseFloat / toFixed.
+
+## Repositório da aula da semana:
+
+[reprograma/on7-porto-s2-resolucao-problemas-I](https://github.com/reprograma/on7-porto-s2-resolucao-problemas-I)
