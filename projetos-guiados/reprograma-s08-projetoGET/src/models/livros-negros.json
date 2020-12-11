@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "book": "Mulheres, Raça e Classe",
+    "author": "Angela Davis",
+    "year": 1981
+  },
+  {
+    "id": 2,
+    "book": "Sem Gentileza",
+    "author": "Futhi Ntshingila",
+    "year": 2016
+  },
+  {
+    "id": 3,
+    "book": "Americanah",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": 2013
+  },
+  {
+    "id": 4,
+    "book": "O Olho Mais Azul",
+    "author": "Toni Morrison",
+    "year": 1970
+  },
+  {
+    "id": 5,
+    "book": "O Genocídio do Negro Brasileiro",
+    "author": "Abdias do Nascimento",
+    "year": "2016"
+  },
+  {
+    "id": 6,
+    "book": "Um Defeito de Cor",
+    "author": "Ana Maria Gonçalves",
+    "year": 2006
+  },
+  {
+    "id": 7,
+    "book": "Memórias da Plantação",
+    "author": "Grada Kilomba",
+    "year": 2019
+  },
+  {
+    "id": 8,
+    "book": "Olhos D'água",
+    "author": "Conceição Evaristo",
+    "year": 2014
+  },
+  {
+    "id": 9,
+    "book": "Da Diáspora: Identidades e Mediações Culturais",
+    "author": "Stuart Hall",
+    "year": 2003
+  },
+  {
+    "id": 10,
+    "book": "Origens Africanas do Brasil Contemporâneo",
+    "author": "Kabengele Munanga",
+    "year": 2009
+  }
+]
