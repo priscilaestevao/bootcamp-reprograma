@@ -59,16 +59,8 @@ _Estrutura do HTML inserido o código CSS:_
   </body>
 </html>
 ````
-
-Arquivo salvo como index.html
-Atualmente, utiliza-se as versões do HTML 5 e CSS 3 que passam por mudanças em suas regras para exibições nos navegadores atuais que existem, que visam manter a ordem da criação de sites e padronização em todo o mundo. 
-Ainda tem dúvidas?  Sem problemas. Em nosso blog você pode ler mais sobre esse e outros assuntos.
-<<<<<<< HEAD
 Fonte: [ISBRASIL](https://www.isbrasil.info/blog/html-x-css-afinal-quais-sao-as-diferencas.html).
 
 ## Repositório da aula da semana:
 
 [reprograma/on7-porto-s1-introducao](https://github.com/reprograma/on7-porto-s1-introducao)
-=======
-Fonte: [ISBRASIL](https://www.isbrasil.info/blog/html-x-css-afinal-quais-sao-as-diferencas.html)
->>>>>>> c1c6cd891fe2e638d4bed36c763f89e36972599d
