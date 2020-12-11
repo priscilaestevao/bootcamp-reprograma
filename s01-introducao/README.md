@@ -10,7 +10,7 @@ A linguagem HTML (HyperText Markup Language) significa linguagem de marcação d
 
 Já o CSS (Cascading Style Sheets) significa Folhas de Estilo em Cascata é uma linguagem de estilo utilizada para definir a apresentação de documentos escritos em uma linguagem de marcação, como HTML ou XML. Seu principal benefício é prover a separação entre o formato e o conteúdo de um documento. O CSS é uma linguagem mais voltada para a estética, utilizada para formatar os conteúdos já estruturados.
 
-Essa linguagem é responsável pela aparência da página, como o posicionamento dos elementos, cores e tudo que torne o site mais visualmente agradável para a navegação. Para ter conhecimentos em CSS o web designer precisa primeiramente conhecer o HTML profundamente, senão ele não entenderia conceitos de como aplicar o estilo com o CSS. Leia nosso post sobre [Como criar um blog](https://www.isbrasil.info/blog/como-criar-um-blog-passo-a-passo-completo-para-criar-o-seu-blog.html)
+Essa linguagem é responsável pela aparência da página, como o posicionamento dos elementos, cores e tudo que torne o site mais visualmente agradável para a navegação. Para ter conhecimentos em CSS o web designer precisa primeiramente conhecer o HTML profundamente, senão ele não entenderia conceitos de como aplicar o estilo com o CSS.
 
 ## Principais diferenças
 
@@ -18,7 +18,7 @@ Essa linguagem é responsável pela aparência da página, como o posicionamento
 
 O HTML tem como proposta ser a linguagem universal dos mais diversos meios de acesso, a fim de tornar possível a distribuição de informações de maneira global. A versão mais atual, o HTML 5, já é uma das plataformas mais usadas na web, pois oferece recursos inovadores, como a possibilidade de atuação off-line, armazenamento de dados em dispositivos clientes, conectividade mais eficiente e mais facilidade para trabalhar com recursos multimídia.
 
-Outra vantagem do HTML 5 é sua excelente integração com o CSS 3, que é a última versão do CSS. Capaz de construir animações tanto em 2D quanto em 3D, com efeitos de rotação, movimento e transição, o CSS 3, unido ao HTML 5, facilita a criação de sites e aplicativos mais complexos e esteticamente melhores. Aprimore seus conhecimentos em vantagens de [Criar um Blog](https://www.isbrasil.info/blog/vantagens-de-ter-um-blog-em-wordpress.html)
+Outra vantagem do HTML 5 é sua excelente integração com o CSS 3, que é a última versão do CSS. Capaz de construir animações tanto em 2D quanto em 3D, com efeitos de rotação, movimento e transição, o CSS 3, unido ao HTML 5, facilita a criação de sites e aplicativos mais complexos e esteticamente melhores.
 
 Uma linguagem de marcação como HTML também fornece maneiras de especificar estilo. Por exemplo, você pode usar a tag ```<b>``` para fazer o texto em negrito e pode especificar a cor de fundo na sua tag ```<body>```.
 
